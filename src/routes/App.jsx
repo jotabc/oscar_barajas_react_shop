@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Layout } from '../containers/Layout'
-import { Login } from '../containers/Login'
+// import { Login } from '../containers/Login'
 import { Home } from '../pages/Home'
 import { PasswordRecovery } from '../pages/PasswordRecovery'
 import { SendEmail } from '../pages/SendEmail'
@@ -18,7 +18,7 @@ export const App = () => {
       <Layout>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/login' component={Login} />
+          {/* <Route exact path='/login' component={Login} /> */}
           <Route exact path='/password_recovery' component={PasswordRecovery} />
           <Route exact path='/send_email' component={SendEmail} />
           <Route exact path='/new_password' component={NewPassword} />
