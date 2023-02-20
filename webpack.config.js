@@ -6,7 +6,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/' // => react-router-dom
   },
   mode: 'development',
   resolve: {
@@ -49,6 +50,8 @@ module.exports = {
     })
   ],
   devServer: {
+    // se usa para responder a una página específica cuando se devuelve la página 404
+    historyApiFallback: true,
     static: {
       directory: path.join(__dirname, 'dist')
     },
