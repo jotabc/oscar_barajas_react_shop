@@ -1,0 +1,14 @@
+!!! Atomic Design !!!.- Es una metodologia de diseño de producto que va a ayudarnos a prepar nuestras app pensandolas como un lemento individual. Nos permite trabajar con los componentes y pensar de una mejor forma de como dividir los elementos que van a ser clave dentro de nuestra app.
+Donde podemos nosotros encontrar puntos claves que nos va a ayudar a separar nuestros componentes:
+
+  - Átomos.- Es la representación de pequeños elementos o unidades que son clave dentro nuestra app, eso significa como desde un botón, el elemento de un texto como se comporta una imagen pueden ser componentes de forma individual.
+
+  - Moléculas.- Nos pemiten unir más de un componente, que nos permite unir un bloque especifico, como se va a comportar un texto más una imagen como avatar x ejm.
+
+  - Organismos.- Estos elementos van a ser clave porque van a ser parte de lo que vamos a estar construyendo, por ejm un header opouede contener a su vez un componente logo, a su vex un component Navbar, asu vez un component Search pero este mismo es todo el Header.
+
+  - Templates.- Nos ayuda a representar nuestros templates, como yo ya podemos estructurar una sección en específica como por ejm el header de nuestra app, que ya contiene un search, un menu etc etc. Sería la combinación de organismos que a su vez tienen moléculas.
+
+  - Pages.- Resultado de la combinación ya con la información de un render desde una API e interacciones de los usuarios en nuestras páginas y como estas se van a comportar según sea el elemento y es aquí donde tiene sentido el estado, el ciclo de vida y el virtual DOM.
+  - Pages.- Resultado de la combinación ya con la información de un render desde una API e interacciones de los usuarios en nuestras páginas y como estas se van a comportar según sea el elemento y es aquí donde tiene sentido el estado, el ciclo de vida y el virtual DOM.
+
