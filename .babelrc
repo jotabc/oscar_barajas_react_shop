@@ -1,0 +1,8 @@
+{
+  "presets": [
+    // compila EM5 EM6 para trabajar con JS moderno
+    "@babel/preset-env",
+    // Para tranajar con JSX y toda la sintaxis de React que esta en la librería
+    "@babel/preset-react"
+  ]
+}
