@@ -10,5 +10,16 @@ Donde podemos nosotros encontrar puntos claves que nos va a ayudar a separar nue
   - Templates.- Nos ayuda a representar nuestros templates, como yo ya podemos estructurar una sección en específica como por ejm el header de nuestra app, que ya contiene un search, un menu etc etc. Sería la combinación de organismos que a su vez tienen moléculas.
 
   - Pages.- Resultado de la combinación ya con la información de un render desde una API e interacciones de los usuarios en nuestras páginas y como estas se van a comportar según sea el elemento y es aquí donde tiene sentido el estado, el ciclo de vida y el virtual DOM.
-  - Pages.- Resultado de la combinación ya con la información de un render desde una API e interacciones de los usuarios en nuestras páginas y como estas se van a comportar según sea el elemento y es aquí donde tiene sentido el estado, el ciclo de vida y el virtual DOM.
 
+ !!! TIPOS DE COMPONENTES !!!.-
+  - stateful.- Es un componente con un estado. Manejan un estado dentro del componente que desencadena algo cuando su estado cambie.
+
+  - stateles.- Es un componente con un estado. Es un componente que representa de lo que viene siendo la estructura en sí. Comunmente representado con un return directo sin necesidad de {} ejm
+  const Example = ({ props }) => (
+    <div>Component Statles</div>
+  )
+
+  - class.- Component que usa una clase, donde podemos usar los constructor, que nos permite inicializar en el constructor algunos elementos de mi estado.
+
+  - HOC (High Order Component).- Son components de orden superior, los cuales tienen una funcoinalidad muy oarticular donde reciben un component, extienden su funcionalidad con lo que podamos llegar a tener dentro de este component y retornan un component compuesto, con lo que viene siendo el component que encapsula al component que recibe.
+  
