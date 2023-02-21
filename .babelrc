@@ -4,5 +4,8 @@
     "@babel/preset-env",
     // Para tranajar con JSX y toda la sintaxis de React que esta en la librería
     "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
   ]
 }
