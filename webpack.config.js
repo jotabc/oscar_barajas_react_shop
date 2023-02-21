@@ -64,11 +64,11 @@ module.exports = {
   ],
   devServer: {
     // se usa para responder a una página específica cuando se devuelve la página 404
+    historyApiFallback: true,
     static: {
-      directory: path.join(__dirname, 'public')
+      directory: path.join(__dirname, 'dist')
     },
     compress: true,
-    port: 5000,
-    historyApiFallback: true
+    port: 5000
   }
 }
