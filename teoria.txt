@@ -23,3 +23,5 @@ Donde podemos nosotros encontrar puntos claves que nos va a ayudar a separar nue
 
   - HOC (High Order Component).- Son components de orden superior, los cuales tienen una funcoinalidad muy oarticular donde reciben un component, extienden su funcionalidad con lo que podamos llegar a tener dentro de este component y retornan un component compuesto, con lo que viene siendo el component que encapsula al component que recibe.
   
+  !!! FORMDATA !!!.- FormData es parte de js, lo que nos permite es instanciar todos los elementos que se encuentren dentro de un formulario y los va a capturar conforme sean llenados y lo tendremos presentes a la hora de realizar cualquier acción como por ejm el submit del formulario. Podemos enviar tambien todo el objeto al backend de una forma más segura y encriptada para que la info no sea accesible a otras personas.
+  
