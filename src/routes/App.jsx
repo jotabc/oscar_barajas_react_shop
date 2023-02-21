@@ -20,7 +20,7 @@ export const App = () => {
 
   return (
     <AppContext.Provider value={initialState}>
-      <HashRouter basename='/'>
+      <HashRouter basename='/#'>
         <Layout>
           <Switch>
             <Route exact path='/' component={Home} />
