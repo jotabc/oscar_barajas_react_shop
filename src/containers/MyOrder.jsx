@@ -1,8 +1,11 @@
-import React from 'react'
-import OrderItem from '../components/OrderItem'
+import React, { useContext } from 'react'
+import { OrderItem } from '../components/OrderItem'
+import AppContext from '../context/AppContext'
 import '../styles/MyOrder.scss'
 
 export const MyOrder = () => {
+  const { state } = useContext(AppContext)
+
   return (
     <aside className='MyOrder'>
       <div className='title-container'>
@@ -10,6 +13,12 @@ export const MyOrder = () => {
         <p className='title'>My order</p>
       </div>
       <div className='my-order-content'>
+        {state.cart.map(productCart => (
+          <OrderItem
+            key={`orderItem_${productCart.id}`}
+            product={productCart}
+          />
+        ))}
         <OrderItem />
         <div className='order'>
           <p>
